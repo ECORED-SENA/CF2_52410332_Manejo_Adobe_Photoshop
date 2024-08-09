@@ -1,17 +1,31 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Herramientas de pintura, dibujo y retoque fotográfico',
+    descripcionCurso:
+      'El presente componente formativo, proporciona una guía completa sobre las herramientas de Adobe Photoshop, enfocándose en la edición de imágenes, dibujo, texto y navegación. Describe en detalle herramientas específicas como desenfocar, enfocar, dedo, sobreexponer, subexponer y esponja. También aborda las transformaciones en Photoshop, incluyendo distorsionar y escalado. Además, incluye ejemplos de uso y referencias visuales, para facilitar la comprensión y aplicación de cada herramienta en el diseño gráfico.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/5.png'),
       },
     ],
   },
@@ -31,28 +45,58 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas de edición de imágenes',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Galería de herramientas de retoque',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Herramientas de dibujo',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Herramientas de pluma',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Herramientas de texto',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Herramientas de selección',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Herramientas de forma',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Herramientas de navegación',
+            hash: 't_1_7',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Transformaciones en Photoshop',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Realización de transformaciones',
+            hash: 't_2_1',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +146,81 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Herramientas de pluma',
+      referencia:
+        'Saber Programas Imagen. (2023). <i>Dibujar con PLUMA en Photoshop – Herramienta Pluma</i> (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xJ49XigGOxc&t=20s',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Herramientas de forma',
+      referencia:
+        'Saber Programas Imagen. (2023). <i>Cómo HACER FIGURAS en Photoshop</i> (video). YouTube.',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=30CsBTY5lvk',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Dedo',
+      significado:
+        'simula el efecto de mezclar pintura fresca, arrastrando el color y combinándolo con tonos cercanos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Desenfocar',
+      significado:
+        'herramienta que suaviza los bordes de una imagen, reduciendo el detalle de los píxeles adyacentes.',
+    },
+    {
+      termino: 'Enfocar',
+      significado:
+        'herramienta que aumenta el contraste entre los bordes de una imagen, mejorando la definición de sus orillas.',
+    },
+    {
+      termino: 'Esponja',
+      significado:
+        'herramienta que satura o desatura los colores de una imagen, ajustando su intensidad de forma gradual.',
+    },
+    {
+      termino: 'Pluma',
+      significado:
+        'herramienta que permite dibujar trazados vectoriales, tanto rectos como curvos, con alta precisión.',
+    },
+    {
+      termino: 'Rotar vista',
+      significado:
+        'herramienta que permite girar el área de trabajo de la imagen, similar a una mesa de dibujo.',
+    },
+    {
+      termino: 'Selección de trazado',
+      significado:
+        'herramienta que selecciona todas las líneas y puntos de ancla de un trazado vectorial.',
+    },
+    {
+      termino: 'Sobreexponer',
+      significado:
+        'herramienta que aclara zonas específicas de una imagen, similar a la técnica de revelar con más luz.',
+    },
+    {
+      termino: 'Subexponer',
+      significado:
+        'herramienta que oscurece áreas claras de una imagen, como en la técnica de revelar con menos luz.',
+    },
+    {
+      termino: 'Transformar',
+      significado:
+        'conjunto de comandos que permite modificar elementos en Photoshop, incluyendo escalado, rotación, distorsión y deformación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Adobe. (2022). <i>Dibujo con las herramientas de pluma</i>. ',
+      link: 'https://helpx.adobe.com/co/photoshop/using/drawing-pen-tools.html',
+    },
+    {
+      referencia: 'Moreno Alonso, J. (s.f.). <i>Manual Photoshop básico</i>',
+      link: 'https://www.professionalscat.net/manuals/pdf/Photoshop_Basic.pdf',
     },
   ],
   creditos: [
@@ -150,8 +243,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Sergio Alfredo Morales Domínguez',
+          cargo: 'Experto Temático',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,23 +258,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

@@ -15,27 +15,27 @@ export default {
   components: { Actividad },
   data: () => ({
     cuestionario: {
-      tema: 'Manejo de los residuos sólidos en la producción avícola.',
+      tema: 'Herramientas de pintura, dibujo y retoque fotográfico',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar el conocimiento y comprensión sobre las herramientas y funciones básicas de Adobe Photoshop, con énfasis en las herramientas de edición de imágenes, dibujo, texto, selección y transformaciones.',
       barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+            '¿Qué herramienta en Photoshop se utiliza para suavizar los bordes de una imagen?',
+          imagen: require('@/assets/actividad/1.svg'),
           barajarRespuestas: false,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
+            { id: 'a', texto: 'Herramienta Enfocar.', esCorrecta: false },
+            { id: 'b', texto: 'Herramienta Dedo.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Explotación extensiva o traspatio',
-              esCorrecta: false,
+              texto: 'Herramienta Desenfocar.',
+              esCorrecta: true,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
+            { id: 'd', texto: 'Herramienta Subexponer.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
@@ -43,33 +43,18 @@ export default {
         {
           id: 2,
           texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+            '¿Cuál de las siguientes opciones permite aumentar el contraste entre los bordes de una imagen?',
+          imagen: require('@/assets/actividad/2.svg'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Herramienta Desenfocar.', esCorrecta: false },
+            { id: 'b', texto: 'Herramienta Enfocar.', esCorrecta: true },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Herramienta Esponja.',
               esCorrecta: false,
             },
+            { id: 'd', texto: 'Herramienta Mano.', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Perfecto! Has seleccionado la respuesta correcta.',
@@ -77,40 +62,136 @@ export default {
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué herramienta de Photoshop simula el efecto de mezclar pintura fresca?',
+          imagen: require('@/assets/actividad/3.svg'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: 'Herramienta Dedo.', esCorrecta: true },
+            { id: 'b', texto: 'Herramienta Sobreexponer.', esCorrecta: false },
+            { id: 'c', texto: 'Herramienta Enfocar.', esCorrecta: false },
+            { id: 'd', texto: 'Herramienta Pluma.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
           mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            'Para aclarar áreas específicas de una imagen, ¿cuál herramienta se debe utilizar?',
+          imagen: require('@/assets/actividad/4.svg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Herramienta Dedo.', esCorrecta: false },
+            { id: 'b', texto: 'Herramienta Esponja.', esCorrecta: false },
+            { id: 'c', texto: 'Herramienta Sobreexponer.', esCorrecta: true },
+            { id: 'd', texto: 'Herramienta Subexponer.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          texto:
+            '¿Qué herramienta se utiliza para oscurecer áreas específicas de una imagen?',
+          imagen: require('@/assets/actividad/1.svg'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Herramienta Subexponer.', esCorrecta: true },
+            { id: 'b', texto: 'Herramienta Dedo.', esCorrecta: false },
+            { id: 'c', texto: 'Herramienta Enfocar.', esCorrecta: false },
+            { id: 'd', texto: 'Herramienta Mano.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 6,
+          texto: '¿Qué herramienta permite saturar o desaturar una imagen?',
+          imagen: require('@/assets/actividad/2.svg'),
+          opciones: [
+            { id: 'a', texto: 'Herramienta Dedo.', esCorrecta: false },
+            { id: 'b', texto: 'Herramienta Esponja.', esCorrecta: true },
+            { id: 'c', texto: 'Herramienta Sobreexponer.', esCorrecta: false },
+            { id: 'd', texto: 'Herramienta Subexponer.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál herramienta de pluma dibuja trazados al igual que un lápiz?',
+          imagen: require('@/assets/actividad/3.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Herramienta Añadir punto de ancla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Herramienta Eliminar punto de ancla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Herramienta Pluma de forma libre.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Herramienta Convertir punto de ancla.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué herramienta selecciona todas las líneas y puntos de ancla de un trazado al hacer clic en el centro de este?',
+          imagen: require('@/assets/actividad/4.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Herramienta Selección directa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Herramienta Selección de trazado.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Herramienta Pluma.', esCorrecta: false },
+            { id: 'd', texto: 'Herramienta Mano.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué herramienta permite desplazarse por la ventana de trabajo para ver áreas ocultas de la imagen?',
+          imagen: require('@/assets/actividad/1.svg'),
+          opciones: [
+            { id: 'a', texto: 'Herramienta Mano.', esCorrecta: true },
+            { id: 'b', texto: 'Herramienta Zoom.', esCorrecta: false },
+            { id: 'c', texto: 'Herramienta Rotar vista.', esCorrecta: false },
+            { id: 'd', texto: 'Herramienta Esponja.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
+          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál comando de transformación permite distorsionar un elemento arrastrando los manejadores de esquina?',
+          imagen: require('@/assets/actividad/2.svg'),
+          opciones: [
+            { id: 'a', texto: 'Escalados.', esCorrecta: false },
+            { id: 'b', texto: 'Rotar.', esCorrecta: false },
+            { id: 'c', texto: 'Distorsionar.', esCorrecta: true },
+            { id: 'd', texto: 'Sesgar.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Respuesta correcta! Felicidades.',
           mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
