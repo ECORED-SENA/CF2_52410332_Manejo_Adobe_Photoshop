@@ -75,9 +75,6 @@
 
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 2.
-                  span Herramienta desenfocar
                 .bg3.p-4 
                   img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/15.png', alt='')                   
                   img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/15_1.png', alt='')                   
@@ -104,9 +101,6 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 3.
-          span Herramienta enfocar
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/16.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/16_1.png', alt='') 
@@ -129,9 +123,6 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
-          span Herramienta dedo
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/17.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/17_1.png', alt='')
@@ -158,7 +149,7 @@
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
                 .titulo-sexto.color-acento-contenido
-                  h5 Figura 5.
+                  h5 Figura 2.
                   span Barra de herramientas
                 .bg3.p-4 
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='Imagen que presenta la barra de herramientas de retoque.')
@@ -211,13 +202,10 @@
                 span 6
               span Dé clic sostenido y arrastre el puntero sobre la imagen, de esta manera, aclara las zonas sobre las que se desplaza. 
 
-    p(data-aos="fade-down") Esta herramienta equivale la técnica de revelado tradicional en la que se deja pasar más luz. 
+    p(data-aos="fade-down") Esta herramienta equivale a la técnica de revelado tradicional en la que se deja pasar más luz. 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 6.
-          span Herramienta sobreexponer
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/29.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/29_1.png', alt='')    
@@ -268,9 +256,6 @@
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 7.
-          span Herramienta subexponer
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/32.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/32_1.png', alt='')                              
@@ -295,9 +280,6 @@
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png', alt='')             
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 8.
-          span Herramienta esponja
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/35_1.png', alt='')  
@@ -341,7 +323,7 @@
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
                 .titulo-sexto.color-acento-contenido
-                  h5 Figura 9.
+                  h5 Figura 3.
                   span Barra de herramientas de pluma
                 .bg3.p-4 
                   img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='Imagen que presenta la barra de herramientas de pluma.') 
@@ -359,22 +341,19 @@
       .col-lg-8.p-0
         p(data-aos="fade-down") Con esta herramienta se dibujan trazados vectoriales, estos pueden ser rectos, curvos o mixtos.
 
-        p(data-aos="fade-down") Los trazos rectos se dibujan haciendo clic, en el lugar en el que se desea insertar el primer punto de ancla, se desplaza el puntero hasta ubicar el lugar donde se quiere finalizar el trazado y luego se vuelve a dar clic; si mientras dibuja un trazado mantiene oprimida la tecla Mayúsculas, el desplazamiento del mouse se ajustará en incrementos de 45° o cualquiera de sus múltiplos; recuerde que para cerrar un trazado, debe hacer clic sobre el punto inicial del mismo.
+        p(data-aos="fade-down") Los trazos rectos se dibujan haciendo clic, en el lugar en el que se desea insertar el primer punto de ancla, se desplaza el puntero hasta ubicar el lugar donde se quiere finalizar el trazado y luego se vuelve a dar clic; si mientras dibuja un trazado mantiene oprimida la tecla Mayúsculas, el desplazamiento del #[i mouse] se ajustará en incrementos de 45° o cualquiera de sus múltiplos; recuerde que para cerrar un trazado, debe hacer clic sobre el punto inicial del mismo.
 
       .col-lg-4.p-0
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/40.png', alt='')             
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 10.
-          span Trazos rectos con herramienta pluma
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/41.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/41_1.png', alt='')  
 
     .row.justify-content-center.align-items-center.bg8.mb-5(data-aos="fade-right")
       .col.my-3
-        p(data-aos="fade-down").mb-0 Para dibujar segmentos curvos, se hace clic al fijar el primer punto de ancla, luego sin soltar el botón del mouse, se arrastra el puntero en dirección de la inclinación que se le desee dar a la curva, posteriormente se suelta el botón del mouse, se ubica el siguiente punto y finalmente se hace clic donde va a terminar la curva; pero si desea darle más precisión, antes de soltar el mouse, arrastre el puntero eligiendo la curvatura del trazado y suéltelo.      
+        p(data-aos="fade-down").mb-0 Para dibujar segmentos curvos, se hace clic al fijar el primer punto de ancla, luego sin soltar el botón del #[i mouse], se arrastra el puntero en dirección de la inclinación que se le desee dar a la curva, posteriormente se suelta el botón del #[i mouse], se ubica el siguiente punto y finalmente se hace clic donde va a terminar la curva; pero si desea darle más precisión, antes de soltar el #[i mouse], arrastre el puntero eligiendo la curvatura del trazado y suéltelo.      
       .col-auto
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/42.png', alt='')     
 
@@ -384,9 +363,6 @@
           .col-lg-12
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 11.
-                  span Trazos curvos con herramienta pluma
                 .bg3.p-4 
                   img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/44.png', alt='')                   
                   img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/44_1.png', alt='')  
@@ -395,15 +371,12 @@
               .col-auto
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.png', alt='')        
               .col
-                p(data-aos="fade-down") Las líneas rectas y curvas se pueden combinar en un mismo trazado para realizar formas más complejas; para hacerlo, dibuje la línea recta como se indicó anteriormente, luego haga clic sobre el punto de ancla donde desea retomar el dibujo (arrastrando y soltando el mouse), finalmente, continúe realizando la curva normalmente.
+                p(data-aos="fade-down") Las líneas rectas y curvas se pueden combinar en un mismo trazado para realizar formas más complejas; para hacerlo, dibuje la línea recta como se indicó anteriormente, luego haga clic sobre el punto de ancla donde desea retomar el dibujo (arrastrando y soltando el #[i mouse]), finalmente, continúe realizando la curva normalmente.
 
                 p(data-aos="fade-down") Recuerde que con la tecla #[b Alt] oprimida, puede cambiar la dirección del segmento, conmutando entre puntos de trazado suave (curvos) y puntos de vértice (rectos). 
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 12.
-          span Trazos rectos y curvos con herramienta pluma
         .bg3.p-4 
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/45.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/45_1.png', alt='')    
@@ -462,9 +435,6 @@
           .col-lg-12    
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 13.
-                  span Ediciones de trazados
                 .bg3.p-4 
                   img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/51.png', alt='')                   
                   img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/51_1.png', alt='')  
@@ -473,9 +443,6 @@
 
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 14.
-                  span Convertir puntos rectos
                 .bg3.p-4 
                   img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/52.png', alt='')                   
                   img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/52_1.png', alt='')  
@@ -485,9 +452,6 @@
 
             .row.justify-content-center.align-items-center.mb-5           
               .col-lg-10           
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 15.
-                  span Modificar un punto de curva
                 .bg3.p-4 
                   img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/53.png', alt='')                   
                   img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/53_1.png', alt='') 
@@ -502,7 +466,7 @@
               h5.text-white(data-aos="fade-down").mb-0 Trazado con detección de contenido      
      
       .col-lg-8
-        p(data-aos="fade-down") La herramienta #[b Trazado con detección de contenido] se presenta como una previsualización de tecnología en la versión de octubre de 2020 de Photoshop, y permite crear trazados vectoriales y selecciones, solo con pasar el puntero del mouse por los bordes de la imagen y hacer clic.
+        p(data-aos="fade-down") La herramienta #[b Trazado con detección de contenido] se presenta como una previsualización de tecnología en la versión de octubre de 2020 de Photoshop, y permite crear trazados vectoriales y selecciones, solo con pasar el puntero del #[i mouse] por los bordes de la imagen y hacer clic.
 
         p(data-aos="fade-down").mb-0 Esta herramienta se puede activar en Preferencias > Previsualizaciones de tecnología y luego, debe reiniciar Photoshop.  
 
@@ -539,7 +503,7 @@
 
                 .row.justify-content-center.p-2(titulo="Paso 4")
                   .col-lg-6.my-3.col-md-auto
-                    p #[b 4.] Para añadir al trazado, pase el puntero del mouse sobre un borde adyacente para resaltar una nueva sección y mantenga pulsada la tecla Mayúscula mientras hace clic para ampliar el trazado. La línea rosa que aparece indica que está añadiendo una nueva sección al trazado existente.               
+                    p #[b 4.] Para añadir al trazado, pase el puntero del #[i mouse] sobre un borde adyacente para resaltar una nueva sección y mantenga pulsada la tecla Mayúscula mientras hace clic para ampliar el trazado. La línea rosa que aparece indica que está añadiendo una nueva sección al trazado existente.               
                   .col-lg-5.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/59.png', alt="")  
 
@@ -558,15 +522,12 @@
                 .col.p-0
                   .bg4.h-100.p-2.j
                     h5(data-aos="fade-down").mb-0 Detalle
-          p(data-aos="fade-down") Al ajustar el regulador Detalle, Photoshop muestra una previsualización de los bordes que Photoshop ve. Si mueve el regulador hacia la derecha, la cantidad de bordes que Photoshop detecta aumentará, y si se mueve hacia la izquierda, la cantidad de bordes detectados disminuirá
+          p(data-aos="fade-down") Al ajustar el regulador Detalle, Photoshop muestra una previsualización de los bordes que Photoshop ve. Si mueve el regulador hacia la derecha, la cantidad de bordes que Photoshop detecta aumentará, y si se mueve hacia la izquierda, la cantidad de bordes detectados disminuirá.
         .col-lg-3
           img.img-a.img-t(src='@/assets/curso/temas/61.png', alt="") 
 
       .row.justify-content-center.align-items-center           
           .col-lg-10           
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 16.
-              span Ajustar Detalle
             .bg3.p-4 
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/62.png', alt='') 
 
@@ -609,11 +570,11 @@
             p(data-aos="fade-down").mb-0 El primer segmento del trazado siempre aparece inicialmente como rectilíneo en el lienzo. En función de si después dibuja un segmento curvo o rectilíneo, Photoshop lo ajusta posteriormente. Si el siguiente segmento que dibuja es curvo, Photoshop realiza la primera curva del segmento de forma suavizada en relación con el siguiente segmento.  
 
     .bg17.p-3.mb-5(data-aos="fade-right")
-      p(data-aos="fade-down") #[b.t1.px-1 D.] (Trazado curvo) Con un mouse o un dispositivo táctil, arrastre el puntero para dibujar el siguiente segmento del trazado. Mientras el botón del mouse está pulsado, optimice la curva del segmento. El segmento anterior se ajusta automáticamente para mantener la curva suavizada.
+      p(data-aos="fade-down") #[b.t1.px-1 D.] (Trazado curvo) Con un #[i mouse] o un dispositivo táctil, arrastre el puntero para dibujar el siguiente segmento del trazado. Mientras el botón del #[i mouse] está pulsado, optimice la curva del segmento. El segmento anterior se ajusta automáticamente para mantener la curva suavizada.
       img.img-a.img-t(src='@/assets/curso/temas/67.png', alt="") 
 
     .bg17.p-3.mb-5(data-aos="fade-left")
-      p(data-aos="fade-down") #[b.t1.px-1 E.] (Trazado curvo) Suelte el botón del mouse para colocar el punto de ancla y complete el segundo segmento. 
+      p(data-aos="fade-down") #[b.t1.px-1 E.] (Trazado curvo) Suelte el botón del #[i mouse] para colocar el punto de ancla y complete el segundo segmento. 
 
     .bg17.p-3.mb-5(data-aos="fade-right")
       p(data-aos="fade-down") #[b.t1.px-1 F.] Dibuje segmentos adicionales y complete el trazado.
@@ -685,7 +646,7 @@
                 .col-auto.p-0
                   img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/73.png', alt='')    
 
-            p(data-aos="fade-down").mt-4 Selecciona todas las líneas y puntos de ancla de un trazado, al cliquear al centro de este; además, permite seleccionar un segmento de trazado, haciendo clic y arrastrando el puntero del mouse sobre el área que desee seleccionar.
+            p(data-aos="fade-down").mt-4 Selecciona todas las líneas y puntos de ancla de un trazado, al cliquear al centro de este; además, permite seleccionar un segmento de trazado, haciendo clic y arrastrando el puntero del #[i mouse] sobre el área que desee seleccionar.
 
       .col-lg-6.my-3
         .bg20.p-4.h-100.brad 
@@ -698,7 +659,7 @@
                 .col-auto.p-0
                   img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/74.png', alt='')    
 
-            p(data-aos="fade-down").mt-4 Algunas veces se necesita realizar ajustes puntuales a segmentos de trazado o puntos de ancla, para realizar estos ajustes haga clic sostenido sobre un segmento del trazado o en un punto de ancla y arrastre, pero cuando se selecciona un punto de dirección ofrece la posibilidad de ser girado o escalado. 
+            p(data-aos="fade-down").mt-4 Algunas veces se necesiten realizar ajustes puntuales a segmentos de trazado o puntos de ancla, para realizar estos ajustes haga clic sostenido sobre un segmento del trazado o en un punto de ancla y arrastre, pero cuando se selecciona un punto de dirección ofrece la posibilidad de ser girado o escalado. 
 
     #t_1_6
     .row.justify-content-start.mb-4 

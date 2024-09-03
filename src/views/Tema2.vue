@@ -86,15 +86,12 @@
       .col-lg-8
           p(data-aos="fade-down") Este apartado se centra en la realización de transformaciones con selecciones o vectores en la capa activa.
 
-          p(data-aos="fade-down").mb-0 Al seleccionar cualquiera de los comandos de transformación, se muestra en pantalla un rectángulo delimitador con un centro de referencia , este se puede desplazar, incluso fuera del marco del objeto que se desea transformar; dicho punto sirve para demarcar el lugar desde el cual se va a realizar la modificación.
+          p(data-aos="fade-down").mb-0 Al seleccionar cualquiera de los comandos de transformación, se muestra en pantalla un rectángulo delimitador con un centro de referencia, este se puede desplazar, incluso fuera del marco del objeto que se desea transformar; dicho punto sirve para demarcar el lugar desde el cual se va a realizar la modificación.
       .col-lg-4.p-0.mb-md-4.mb-lg-0
         img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/91.png', alt='')                            
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 17.
-          span Demarcación
         .bg3.p-4 
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/92.png', alt='Imagen que presenta Demarcación.')   
 
@@ -106,9 +103,6 @@
 
     .row.justify-content-center.mb-5           
       .col-lg-10           
-        .titulo-sexto.color-acento-contenido
-          h5 Figura 18.
-          span Barra de opciones
         .bg3.p-4 
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/94.png', alt='Imagen que presenta la barra de opciones.')  
 

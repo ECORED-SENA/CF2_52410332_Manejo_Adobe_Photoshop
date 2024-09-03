@@ -157,7 +157,7 @@ export default {
       referencia:
         'Saber Programas Imagen. (2023). <i>Cómo HACER FIGURAS en Photoshop</i> (video). YouTube.',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=30CsBTY5lvk',
+      link: 'https://www.youtube.com/watch?v=30CsBTY5lvk',
     },
   ],
   glosario: [
