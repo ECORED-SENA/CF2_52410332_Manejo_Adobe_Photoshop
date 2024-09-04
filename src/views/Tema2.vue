@@ -72,15 +72,9 @@
             .col
               p(data-aos="fade-down").mb-0 Voltear
               
-    #t_2_1
-    .row.justify-content-start.mb-4 
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Realización de transformaciones
+    Separador 
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.1 Realización de transformaciones
 
     .row.justify-content-center.align-items-center.bg24.mb-5(data-aos="fade-right")
       .col-lg-8

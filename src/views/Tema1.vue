@@ -20,15 +20,9 @@
       .col-lg-3.p-0.mb-md-4.mb-lg-0
         img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/6.png', alt='') 
 
-    #t_1_1 
-    .row.justify-content-start.mb-4 
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Galería de herramientas de retoque
+    Separador 
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.1 Galería de herramientas de retoque
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8
@@ -284,15 +278,9 @@
           img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='')                   
           img.img-a.img-t.d-block.d-lg-none(data-aos="zoom-in")(src='@/assets/curso/temas/35_1.png', alt='')  
 
-    #t_1_2
-    .row.justify-content-start.mb-4 
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Herramientas de dibujo
+    Separador 
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.2 Herramientas de dibujo
 
     .row.justify-content-center.align-items-center.bg10.mb-5(data-aos="fade-right")
       .col.my-3
@@ -300,16 +288,10 @@
       .col-auto.p-0 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/36.png', alt='')   
 
-    #t_1_3
-    .row.justify-content-start
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Herramientas de pluma 
-    .row.bg7.align-items-center
+    Separador 
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.3 Herramientas de pluma 
+    .row.bg7.align-items-center.mb-4
       .col-lg-12.col-12.px-lg-5.px-4.pb-4 
         .row.justify-content-center.align-items-center          
           .col-lg-12  
@@ -320,7 +302,7 @@
               .col-lg-5
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/37.png', alt='')  
 
-            .row.justify-content-center.align-items-center.mb-5           
+            .row.justify-content-center.align-items-center          
               .col-lg-10           
                 .titulo-sexto.color-acento-contenido
                   h5 Figura 3.
@@ -602,15 +584,9 @@
             i.fas.fa-pen.color2
             span Para eliminar un punto de ancla, haga clic en este y, a continuación, pulse la tecla Supr. Mientras se elimina el punto de ancla, la curva se conserva y se ajusta de la forma correspondiente en relación con los puntos de ancla restantes. 
 
-    #t_1_4
-    .row.justify-content-start.mb-4 
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Herramientas de texto
+    Separador 
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.4 Herramientas de texto
 
     .row.justify-content-center.align-items-center.bg10.mb-5(data-aos="fade-right")
       .col.my-3
@@ -622,15 +598,9 @@
       .col-auto.p-0 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/70.png', alt='')
 
-    #t_1_5
-    .row.justify-content-start.mb-4 
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Herramientas de selección  
+    Separador 
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.5 Herramientas de selección  
 
     p(data-aos="fade-down") Para seleccionar y editar las formas vectoriales se utiliza este conjunto de herramientas:    
 
@@ -661,15 +631,9 @@
 
             p(data-aos="fade-down").mt-4 Algunas veces se necesiten realizar ajustes puntuales a segmentos de trazado o puntos de ancla, para realizar estos ajustes haga clic sostenido sobre un segmento del trazado o en un punto de ancla y arrastre, pero cuando se selecciona un punto de dirección ofrece la posibilidad de ser girado o escalado. 
 
-    #t_1_6
-    .row.justify-content-start.mb-4 
-      .col-auto(data-aos="flip-down")
-        .list
-          .list__item
-            .list__item__icon
-              img(src='@/assets/curso/temas/icon.svg', alt='')
-          .list__txt.bgicon.p-0.px-4
-            h3.mb-0 Herramientas de forma   
+    Separador 
+    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.6 Herramientas de forma   
 
     .row.justify-content-center.mb-4           
       .col-lg-5.my-3
@@ -682,20 +646,13 @@
       .col-lg-3.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='')
 
+    Separador 
+    #t_1_7.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 1.7 Herramientas de navegación
     .row.bg21.align-items-center
       .col-lg-12.col-12.px-lg-5.px-4.py-4 
         .row.justify-content-center.align-items-center          
           .col-lg-12 
-            #t_1_7
-            .row.justify-content-start.mb-4 
-              .col-auto(data-aos="flip-down")
-                .list
-                  .list__item
-                    .list__item__icon
-                      img(src='@/assets/curso/temas/icon.svg', alt='')
-                  .list__txt.bgicon.p-0.px-4
-                    h3.mb-0 Herramientas de navegación                    
-
             p(data-aos="fade-down") En este grupo de herramientas encontramos las Herramientas de Mano, Rotar vista y Zoom.
             .row.justify-content-center.text-center.mb-4           
               .col-lg-4.my-3
