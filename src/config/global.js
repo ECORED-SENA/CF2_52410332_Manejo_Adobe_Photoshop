@@ -259,7 +259,7 @@ export default {
       autores: [
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
