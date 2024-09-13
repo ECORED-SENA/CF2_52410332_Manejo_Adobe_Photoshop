@@ -146,7 +146,7 @@
                   h5 Figura 2.
                   span Barra de herramientas
                 .bg3.p-4 
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='Imagen que presenta la barra de herramientas de retoque.')
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='Imagen que presenta la barra de herramientas de retoque.')
 
     .row.justify-content-center.align-items-center.bg8.mb-5(data-aos="fade-right")
       .col.my-3
