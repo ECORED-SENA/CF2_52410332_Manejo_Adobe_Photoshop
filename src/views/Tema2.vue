@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Herramientas de edición de imágenes
+      h1 Transformaciones en Photoshop
 
     .row.justify-content-center.mb-4               
       .col-lg-9.my-3

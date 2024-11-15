@@ -38,7 +38,7 @@
           h5 Figura 1.
           span Barra de herramientas de retoque 
         .bg3.p-4 
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='Imagen que presenta la barra de herramientas de retoque.')     
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='En la imagen de la barra de herramientas de retoque se presenta la dureza, diámetro y tipo de pincel; dónde se abre el panel de pinceles, dónde se determina la fusión con los píxeles subyacentes, dónde se define la potencia de la herramienta y el uso presión (lápiz digital).')     
 
     .row.justify-content-start          
       .col-auto
@@ -146,7 +146,7 @@
                   h5 Figura 2.
                   span Barra de herramientas
                 .bg3.p-4 
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='Imagen que presenta la barra de herramientas de retoque.')
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='En la imagen de la barra de herramientas, se presenta dónde se afecta la zona de grises, sombras e iluminaciones, dónde se establece el nivel de la exposición, dónde se encuentra la herramienta aerógrafo y donde se evitan los cambios de tonos de sombras e iluminaciones.')
 
     .row.justify-content-center.align-items-center.bg8.mb-5(data-aos="fade-right")
       .col.my-3
@@ -308,7 +308,7 @@
                   h5 Figura 3.
                   span Barra de herramientas de pluma
                 .bg3.p-4 
-                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='Imagen que presenta la barra de herramientas de pluma.') 
+                  img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/38.png', alt='En la imagen de las barra de herramientas de pluma se presenta dónde se conmuta entre trazado y forma, dónde se hace una selección, dónde se crean máscaras vectoriales, dónde se encuentran las operaciones con trazados y previsualiza el trazado.') 
 
     .row.justify-content-start.mb-4          
       .col-auto
@@ -472,7 +472,7 @@
                     p #[b 2.] Pase el cursor sobre el borde de un objeto para resaltarlo.
 
                     .bg8.p-3
-                      p(data-aos="fade-down").mb-0 Los diferentes niveles de zoom afectarán el modo en que Photoshop ve la imagen y, por tanto, a la forma en que la herramienta identifica los bordes. Por ejemplo, si está trabajando con una imagen de baja resolución, reducir la imagen puede ayudar a Photoshop a identificar un borde con más facilidad. Al aumentar la imagen (100 % o más), la herramienta utilizará la resolución predeterminada de 1-1 píxeles para identificar los bordes.    
+                      p(data-aos="fade-down").mb-0 Los diferentes niveles de #[i zoom] afectarán el modo en que Photoshop ve la imagen y, por tanto, a la forma en que la herramienta identifica los bordes. Por ejemplo, si está trabajando con una imagen de baja resolución, reducir la imagen puede ayudar a Photoshop a identificar un borde con más facilidad. Al aumentar la imagen (100 % o más), la herramienta utilizará la resolución predeterminada de 1-1 píxeles para identificar los bordes.    
                                  
                   .col-lg-5.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/57.png', alt="")
