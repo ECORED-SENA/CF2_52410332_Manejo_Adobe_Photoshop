@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="64" viewBox="0 0 85 64">
+  <g id="Grupo_1100454" data-name="Grupo 1100454" transform="translate(-180.051 -1441)">
+    <rect id="Rectángulo_402204" data-name="Rectángulo 402204" width="85" height="64" transform="translate(180.051 1441)" fill="#fdefec"/>
+    <g id="Grupo_1100447" data-name="Grupo 1100447" transform="translate(131.052 1451)">
+      <g id="Grupo_1100444" data-name="Grupo 1100444" transform="translate(75.999 0)">
+        <g id="Grupo_1100443" data-name="Grupo 1100443" transform="translate(0 0)">
+          <path id="Trazado_875102" data-name="Trazado 875102" d="M104.009,19.908C103.481,19.041,92.7,1.334,92.232.59A1.264,1.264,0,0,0,90.09.6c-.923,1.482-11.322,18.569-11.811,19.373a15.164,15.164,0,1,0,25.73-.06ZM91.163,40.6A12.639,12.639,0,0,1,80.427,21.3l.007-.011c.092-.151,7.777-12.779,10.728-17.606,2.895,4.741,10.6,17.4,10.693,17.549l.01.016A12.639,12.639,0,0,1,91.163,40.6Z" transform="translate(-75.999 0)" fill="#5b2ccf"/>
+        </g>
+      </g>
+      <g id="Grupo_1100446" data-name="Grupo 1100446" transform="translate(89.899 26.705)">
+        <g id="Grupo_1100445" data-name="Grupo 1100445">
+          <path id="Trazado_875103" data-name="Trazado 875103" d="M251.109,317a1.264,1.264,0,0,0-1.264,1.264,7.59,7.59,0,0,1-7.582,7.582,1.264,1.264,0,1,0,0,2.527,10.121,10.121,0,0,0,10.109-10.109A1.264,1.264,0,0,0,251.109,317Z" transform="translate(-241 -316.998)" fill="#5b2ccf"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
